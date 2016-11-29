@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Project one</string>
     <string name="restaurant_name">Jstone.Italian Restaurant Café</string>
     <string name="text_location">上海陆家嘴潍坊西路88号（近浦东南路）</string>
     <string name="text_tel">021-50189883</string>

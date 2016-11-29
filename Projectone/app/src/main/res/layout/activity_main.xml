@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.projectone.MainActivity">
+
     <ImageView
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -26,8 +27,9 @@
         android:layout_below="@id/logo1"
         android:layout_marginTop="6dp"
         android:gravity="center_horizontal"
-        android:text="Jstone.Italian Restaurant Café"
+        android:text="@string/restaurant_name"
         android:textColor="#ffffff"
+        android:background="#7e000000"
         android:textSize="22sp"
         android:textStyle="bold|italic"
         android:typeface="serif"
@@ -40,8 +42,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:paddingLeft="30dp"
-        android:text="上海陆家嘴潍坊西路88号（近浦东南路）"
+        android:text="@string/text_location"
         android:textColor="#ffffff"
+        android:background="#7e000000"
         android:textSize="16sp"
         />
     <ImageView
@@ -62,8 +65,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:paddingLeft="30dp"
-        android:text="021-50189883"
+        android:text="@string/text_tel"
         android:textColor="#ffffff"
+        android:background="#7e000000"
         android:textSize="16sp"
         />
     <ImageView
@@ -84,8 +88,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:paddingLeft="30dp"
-        android:text="一家位于浦东的轻奢型意大利餐厅"
+        android:text="@string/text_tag"
         android:textColor="#ffffff"
+        android:background="#7e000000"
         android:textSize="16sp"
         />
     <ImageView
